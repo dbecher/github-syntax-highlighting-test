@@ -1,0 +1,7 @@
+extends _layout
+
+block content
+  form.filename(action="/file", onsubmit!="window.location='/'+(this.file.value.replace(/https?\\\\\:\\\\\/\\\\\/[a-zA-Z]+\\\\\.com\\\\\//, ''));return false;")
+    .container
+      input.input-xxlarge.span11(type="url", placeholder="https://github.com/dbecher/github-syntax-highlighting-test/blob/master/README.md", name="file")
+      button.btn.span1(type="submit") Go

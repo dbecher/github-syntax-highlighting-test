@@ -1,0 +1,28 @@
+{
+  "name": "github-syntax-highlighting-test",
+  "version": "0.0.1",
+  "author": "David Becher",
+  "description": "Just testing the ability to syntax highlight a file from the github API",
+  "contributors": [],
+  "scripts": {
+    "start": "node app"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbecher/github-syntax-highlighting-test.git"
+  },
+  "keywords": [],
+  "dependencies" : {
+    "pygments": "latest",
+    "github": "latest",
+    "express": "3.x",
+    "jade": "latest"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "license": "MIT",
+  "engine": {
+    "node": "0.8.12"
+  }
+}
