@@ -1,4 +1,4 @@
 github-syntax-highlighting-test
 ===============================
 
-Demo app showing the ability to syntax highlight files from github.
+You will need to install [Pygments](http://pygments.org) before you can run the app: `sudo easy_install Pygments`.

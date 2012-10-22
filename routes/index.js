@@ -33,7 +33,8 @@ exports.file = function(req, res) {
       var fileContent = new Buffer(file.content, file.encoding).toString("utf8");
       // guess lexer name from filename
       pygments.colorize('', undefined, undefined, function(lexer) {
-        pygments.colorize(fileContent, undefined, 'html', function(highlighted) {
+        var lexer = lexer.trim();
+        pygments.colorize(fileContent, lexer, 'html', function(highlighted) {
           highlighted = _.map(highlighted.split("\n"), function(line, i) {
             return '<div class="line" id="LC' + (i+1) + '">' + line + '</div>';
           }).join("\n");
