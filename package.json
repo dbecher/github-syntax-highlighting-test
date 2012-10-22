@@ -14,7 +14,8 @@
   },
   "keywords": [],
   "dependencies" : {
-    "pygments": "latest",
+    "underscore": "latest",
+    "pygments": "git://github.com/dbecher/pygments.js.git",
     "github": "latest",
     "express": "3.x",
     "jade": "latest"

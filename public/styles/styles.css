@@ -6,3 +6,12 @@ form.filename {
   text-align: center;
   margin-top: -10px;
 }
+
+.code {
+  background: #fff;
+  line-height: 6px;
+  font-size: 12px;
+}
+.code .line {
+  line-height: 1em;
+}

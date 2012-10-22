@@ -1,3 +1,5 @@
 extends _layout
 block content
-  h1 File Contents
+  h1 #{repo.name}/#{filePath}
+  h6 Language: #{lexer}
+  pre.code!= html
